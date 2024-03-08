@@ -1,0 +1,26 @@
+nav {
+    color: blue;
+    font-family: Georgia;
+    font-size: 100%;
+  }
+  h1 {
+    color: #b2ffff ;
+    font-family: courier;
+    font-size: 160%;
+  }
+  header{
+    background-image: url("d:/downloads/attachments/Photos_bg/bg1.jpg");
+    height:350px ;
+
+  }
+  .button:hover {
+background-color: #008080; /* Green */
+border: none;
+color: white;
+padding: 7px 15px;
+text-align: center;
+text-decoration: none;
+border-radius: 12px;
+display: inline-block;
+font-size: 16px;
+}       
