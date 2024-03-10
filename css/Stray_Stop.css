@@ -12,14 +12,18 @@ nav {
     height:350px ;
 
   }
+  .button1{
+    border-radius: 10px;
+
+  }
   .button:hover {
 background-color: #008080; /* Green */
 border: none;
 color: white;
-padding: 7px 15px;
+
 text-align: center;
 text-decoration: none;
-border-radius: 12px;
+border-radius: 20px;
 display: inline-block;
 font-size: 16px;
 }       
