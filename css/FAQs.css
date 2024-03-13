@@ -5,4 +5,5 @@ h2{
 }
 body{
     background-image: url("../Photos_bg/cat_sky.png");
+    background-repeat: no-repeat;
 }
