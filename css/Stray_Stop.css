@@ -1,5 +1,5 @@
 nav {
-    color: blue;
+    color: white;
     font-family: Georgia;
     font-size: 100%;
   }
@@ -27,3 +27,27 @@ border-radius: 20px;
 display: inline-block;
 font-size: 16px;
 }       
+*{
+  text-decoration: none;
+}
+.navbar{
+  background: #446972; font-family: calibri; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+  font-size: 35px; font-weight: 600; color: white;
+}
+li{
+  list-style: none; display: inline-block;
+}
+li a{
+  color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+li:hover {
+  width: 100px;
+  background-color: #5da280;
+  border-radius: 10px;
+  text-align: center;
+}
