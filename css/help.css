@@ -1,3 +1,72 @@
 body{
     background-image: url("../Photos_bg/cat6.png");
 }
+.range{
+    height:80 px;
+    width:380px;
+    border-radius:10px;
+    padding:0 65px 0 45px;
+}
+.range.slidervalue {
+    position:relative;
+    width:100%
+}
+.range.slidervalue span {
+    position:absolute;
+    height:45px;
+    width:45px;
+    background:#664AFF;
+    color:#fff;
+    font-weight:500;
+    top:-40px;
+    transform:translateX(-50%)
+    line-height: 55px;
+    z-index:2;
+
+}
+.range.slidervalue span:after{
+    position:absolute;
+    content:" ";
+    height:45px;
+    width:45px;
+    left:50%
+    background:violet;
+    transform:translateX(-50%) rotate(45deg);
+    border:3px solid #fff;
+    border-top-left-radius:50%
+    border-top-right-radius:50%
+    border-bottom-left-radius:50%
+    z-index: index -1;
+
+}
+.range.field.value{
+    position:absolute;
+    font-size:18px;
+    font-weight:600;
+}
+.range.field.value.left{
+    left:-22px;
+}
+.range.field.value.right{
+    right:-43px;
+}
+.range.field input{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    color:#664AFF;
+
+}
+.range.field input::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    height:20px;
+    width:20px
+    background: #664AFF;
+    border-radius: 50%;
+    border:1px solid #664AFF;
+    cursor:pointer;
+
+
+}
