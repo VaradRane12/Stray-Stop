@@ -17,8 +17,6 @@
     color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
   }
   li:hover {
-    width: 100px;
-    background-color: #5da280;
-    border-radius: 10px;
-    text-align: center;
+    text-decoration: underline;
+    color: aquamarine;
   }
