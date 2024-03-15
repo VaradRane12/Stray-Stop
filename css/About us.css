@@ -51,3 +51,8 @@ color:#a6dd89;
   width:100%;
   overflow:hidden;
 }
+.nav{
+    width: 100%;
+    border: 0;
+    padding: 0;
+  }
