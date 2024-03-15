@@ -19,9 +19,14 @@ body{
     color:#fff;
     font-weight:500;
     top:-40px;
-    transform:translateX(-50%)
+    transform:translateX(-50%) scale(0);
+    transform-origin:bottom;
     line-height: 55px;
     z-index:2;
+
+}
+.range.slidervalue span.show {
+    transform: translateX(-50%) scale(1);
 
 }
 .range.slidervalue span:after{
