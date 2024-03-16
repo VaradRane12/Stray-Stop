@@ -1,6 +1,7 @@
 <html style="background-color: #ffe4e1;">
 
 <link rel="stylesheet" href="css\Stray_Stop.css">
+<script src="javascript/index.js"></script>
 </style>
 <iframe class="trial" src="slideshow.html"></iframe>
 <nav style="background-color: #529db0;","color: #b0e0e6;">
@@ -30,6 +31,25 @@
 
 </head>
 <body >
+  <button class="open-button" onclick="openForm()">Newsletter</button>
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h2>Newsletters</h2>
+    <br>
+    <label for="psw"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="psw" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    
+
+    <button type="submit" class="btn">Submit</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
   </body>
 
 
