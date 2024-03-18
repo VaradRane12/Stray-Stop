@@ -65,13 +65,19 @@ li:hover {
   position: absolute;
   border: 3px solid #5da280;
   border-style: outset;
-  z-index: -100;
+  z-index: -10;
 
 }
+/* 
+body{
+  background-image: url("../Photos_bg/aesthet.png");
+z-index: -1000;}  */
+
 .nav{
   width: 100%;
   border: 0;
   padding: 0;
+  z-index: 100;
 }
 
 
@@ -81,16 +87,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
-  background-color: #555;
-  color: white;
   padding: 16px 20px;
-  border: none;
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 1;
   position: fixed;
   bottom: 23px;
-  right: 28px;
-  width: 280px;
+  right: 10px;
+  width: 250px;
 }
 
 /* The popup form - hidden by default */
@@ -131,7 +134,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #04AA6D;
+  background-color: #29ad7d;
   color: white;
   padding: 16px 20px;
   border: none;
@@ -141,14 +144,18 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 0.8;
   border-radius: 20px;
 }
-.open-button{
-    background-color: #48747e;
-    border-radius: 20px;
+.news_gif{
+  height: 40%;
+  width: 40%;
+  border-radius: 23000px;
+  text-align: right;
+  border: 3px solid #5da280;
+
 }
 
 /* Add a red background color to the cancel button */
 .form-container .cancel {
-  background-color: red;
+  background-color: rgb(170, 54, 54);
   border-radius: 20px;
 }
 
@@ -157,10 +164,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 /* This is the css for the newsletter popup */
-
-/* body{
-  background-image: url("../Photos_bg/dog_wall.png");
-z-index: -1000;}  */
 
 
 

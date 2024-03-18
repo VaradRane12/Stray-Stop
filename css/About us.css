@@ -73,3 +73,18 @@ color:#a6dd89;
   body{
     background-image: url("../Photos_bg/aesthet.png.");
 }
+.dog_think{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .Photo{
+    padding: 10px;
+    width: 25%;
+    text-align: left;  
+    font-size: 110%;
+    overflow: hidden;
+    display: inline-block;
+  }
