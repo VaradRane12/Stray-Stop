@@ -155,3 +155,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 /* This is the css for the newsletter popup */
+body{
+  background-image: url("../Photos_bg/dog_wall.png");
+}
