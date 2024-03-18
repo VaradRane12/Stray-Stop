@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\help.css">
     <title>LET US HELP! </title>
-    <iframe class = "nav" src="navigation.html"></iframe>
 </head>
 <body>
     <form action="action_page.php" style="border:1px solid #ccc">
@@ -18,51 +17,43 @@
           <hr>
       
 
-          <label for="Name"><b>Name</b></label>
+          <label style="color: #0047AB;font-weight: 500;"
+            for="Name"><b>Name:</b></label><br>
           <input type="Name" placeholder="Enter your Name:" name="Name" required><br>
           <br>
           <br>
 
-          <label for="email"><b>Email</b></label>
+          <label style="color: #0047AB; font-weight: 500;"
+             for="Email"><b>Email:</b></label><br>
           <input type="text" placeholder="Enter Email:" name="email" required><br>
           <br>
           <br>
 
-          <label for="Phone Number"><b>Phone Number</b></label>
+          <label style="color: #0047AB; font-weight: 500;"
+            for="Phone Number"><b>Phone Number:</b></label><br>
           <input type="Phone Number" placeholder="Enter your Phone No:" name="phone_num" required><br>
           <br>
           <br> 
-          <label for="Birthday"><b>Birthday</b></label>
+          <label style="color: #0047AB; font-weight: 500;"
+             for="Birthday"><b>Birthday:</b></label><br>
           <input type="datetime-local" placeholder="Date of Birth:"  id="Test_DatetimeLocal" required><br>
           <br>
           <br>
-          <!--
-          <label for="Age"><b>Age</b></label>
-          <input type="range" min="1" max="100" value="50" class="slider" placeholder="Age:"id="myRange" required><br>
+          <label style="color: #0047AB; font-weight: 500;"
+             for="Image Of Stray"><b>Click on the "Choose File" button to upload an image of the stray:</b></label><br>
+          
+          <form action="/action_page.php">
+            <input type="file" id="myFile" name="filename"><br><br>
+            <input type="submit"><br><br>
+          </form>
+          <label style="color: #0047AB; font-weight: 500;"
+            for="freeform"><b>Describe the Stray's Injury in Detail:</label><b></label>
           <br>
-          <br> 
-    -->
-      <div class="range">
-          <div class="slidervalue">
-            <span> 100</span>
-          </div>
-          <div class ="field">
-            <div class="value left">0</div>
-            <input type="range"min="0" max="100" value="50" steps="1">
-            <div class="value right">100</div>
-
-          </div>
-      </div>
-        </div>
-        <script>
-          const slidevalue=document.querySelector("span");
-          const inputSlider.oninput=(()=>{
-            let value=inputSlider.value;
-            slideValue.textContent = value;
-            slideValue.style.left=(value/2)+ "%";
-          });
-        </script>
-
+          <textarea id="freeform" name="freeform"  rows="5" cols="60">
+          </textarea><br><br>
+          <br>
+          <label style="color: #0047AB; font-weight: 500;"
+             for="location"><b>Please Select Your Location:</label><b></label>
          </center>
       </form>
 
