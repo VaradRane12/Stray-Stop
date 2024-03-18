@@ -46,6 +46,20 @@ color:#a6dd89;
     display: inline-block;
     text-align: left;
 }
+.goal{
+    padding: 50px;
+    width: 30%;
+    text-align: left;
+    background-color: #B5CEA8;
+    border-radius: 15px 50px;
+    color: #5da280;
+    color: #446972;
+    font-family: Candara;
+    font-size: 110%;
+    float: center;
+    display: inline-block;
+    text-align: left;
+}
 .div{
     
   width:100%;
@@ -56,3 +70,6 @@ color:#a6dd89;
     border: 0;
     padding: 0;
   }
+  body{
+    background-image: url("../Photos_bg/aesthet.png.");
+}

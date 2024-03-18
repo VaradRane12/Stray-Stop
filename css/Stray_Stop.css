@@ -178,6 +178,20 @@ z-index: -1000;}  */
   overflow: hidden;
   display: inline-block;
 }
+.goal{
+  margin-inline-start: 80px;
+  padding: 50px;
+  width: 30%;
+  text-align: left;
+  background-color: #B5CEA8;
+  border-radius: 15px 50px;
+  color: #5da280;
+  color: #446972;
+  font-family: Candara;
+  font-size: 110%;
+  overflow: hidden;
+  display: inline-block;
+}
 .vision{
   padding: 50px;
   width: 30%;
@@ -192,6 +206,7 @@ z-index: -1000;}  */
   display: inline-block;
   text-align: left;
 }
+
 .div{
   
 width:100%;
