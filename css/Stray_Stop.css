@@ -157,11 +157,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   opacity: 1;
 }
 /* This is the css for the newsletter popup */
-<<<<<<< HEAD
-body{
-  background-image: url("../Photos_bg/dog_wall.png");
-=======
 
+/* body{
+  background-image: url("../Photos_bg/dog_wall.png");
+z-index: -1000;}  */
 
 
 
@@ -208,5 +207,6 @@ overflow:hidden;
   width: 250;
   height: 250;
   align-items: center;
->>>>>>> 87d75c2b385853a1285f087239990d2c6d08228f
+  text-align: center;
+
 }
