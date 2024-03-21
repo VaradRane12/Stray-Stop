@@ -68,10 +68,10 @@ li:hover {
   z-index: -10;
 
 }
-/* 
+
 body{
   background-image: url("../Photos_bg/aesthet.png");
-z-index: -1000;}  */
+z-index: -1000;} 
 
 .nav{
   width: 100%;
@@ -227,4 +227,10 @@ overflow:hidden;
   align-items: center;
   text-align: center;
 
+}
+
+
+.flex-container{
+  z-index: 100;
+  margin-top: 0;
 }
