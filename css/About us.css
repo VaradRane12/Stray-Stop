@@ -76,14 +76,16 @@ color:#a6dd89;
 .dog_think{
     width: 200px;
     height: 200px;
+    margin-left: 0;
+    margin-right: 0;
     align-items: center;
     text-align: center;
   
   }
   .Photo{
-    padding: 10px;
-    width: 25%;
-    text-align: left;  
+   height: 200;
+   width: 200;
+    text-align: center;  
     font-size: 110%;
     overflow: hidden;
     display: inline-block;
