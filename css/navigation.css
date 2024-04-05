@@ -2,7 +2,7 @@
     text-decoration: none;
   }
   .navbar{
-    background: #446972; font-family: calibri; padding-right: 15px;padding-left: 15px;
+    background: rgb(68, 105, 114); font-family: calibri; padding-right: 15px;padding-left: 15px;
   }
   .navdiv{
     display: flex; align-items: center; justify-content: space-between;
