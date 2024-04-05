@@ -9,3 +9,9 @@ body{
 .p{
     text-decoration: overline;
 }
+.box{
+    padding: 20px;
+    background-color: #B5CEA8;
+    border-radius:15px;
+    background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("Photos_bg/adopt_fost_index.png");
+}
