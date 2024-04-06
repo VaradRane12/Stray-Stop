@@ -29,8 +29,8 @@ color:#a6dd89;
     color: #446972;
     font-family: Candara;
     font-size: 110%;
-    overflow: hidden;
-    display: inline-block;
+    /*overflow: hidden;*/
+   /* display: inline-block;*/
 }
 .Animal{
     padding: 50px;
@@ -61,16 +61,8 @@ color:#a6dd89;
   body{
     background-image: url("../Photos_bg/aesthet.png.");
 }
-.dog_think{
-    width: 200px;
-    height: 200px;
-    margin-left: 0;
-    margin-right: 0;
-    align-items: center;
-    text-align: center;
   
-  }
-  .Photo{
+.Photo{
    height: 200;
    width: 200;
     text-align: center;  
