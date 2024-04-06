@@ -20,32 +20,32 @@ border-radius: 55px;
 color:#a6dd89;
 }
 .Adoption{
-    padding: 50px;
+    padding: 15px;
     width: 30%;
     text-align: left;
     background-color: #B5CEA8;
     border-radius: 15px 50px;
     color: #5da280;
     color: #446972;
+    color: navy;
     font-family: Candara;
     font-size: 110%;
-    /*overflow: hidden;*/
-   /* display: inline-block;*/
+    overflow: hidden;
+    display: inline-block;
 }
 .Animal{
-    padding: 50px;
+    padding: 15px;
     width: 30%;
     text-align: left;
     background-color: #B5CEA8;
     border-radius: 15px 50px;
     color: #5da280;
     color: #446972;
+    color: navy;
     font-family: Candara;
     font-size: 110%;
-    float: right;
+    overflow: hidden;
     display: inline-block;
-    text-align: left;
-}
 
 }
 .div{
