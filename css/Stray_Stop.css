@@ -59,12 +59,11 @@ li:hover {
 .slideshow{
   margin-top: 100;
   height: 50%;
-  width: 100%;
+  width: 110%;
   margin: 0;
   top: 17;
   position: absolute;
-  border: 3px solid #5da280;
-  border-style: outset;
+ 
   z-index: -10;
 
 }

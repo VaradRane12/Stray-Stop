@@ -10,8 +10,12 @@ body{
     text-decoration: overline;
 }
 .box{
-    padding: 20px;
+    padding: 50px;
     background-color: #B5CEA8;
     border-radius:15px;
-    background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("Photos_bg/adopt_fost_index.png");
+    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
+    text-align: center;
+    font-size: large;
+    font-family: candara;
+    color: navy;
 }
