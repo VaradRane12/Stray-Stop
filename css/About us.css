@@ -32,7 +32,7 @@ color:#a6dd89;
     overflow: hidden;
     display: inline-block;
 }
-.vision{
+.Animal{
     padding: 50px;
     width: 30%;
     text-align: left;
@@ -46,19 +46,7 @@ color:#a6dd89;
     display: inline-block;
     text-align: left;
 }
-.goal{
-    padding: 50px;
-    width: 30%;
-    text-align: left;
-    background-color: #B5CEA8;
-    border-radius: 15px 50px;
-    color: #5da280;
-    color: #446972;
-    font-family: Candara;
-    font-size: 110%;
-    float: center;
-    display: inline-block;
-    text-align: left;
+
 }
 .div{
     
