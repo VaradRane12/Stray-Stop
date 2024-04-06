@@ -10,7 +10,7 @@ body{
     text-decoration: overline;
 }
 .box{
-    padding: 50px;
+    padding: 40px;
     background-color: #B5CEA8;
     border-radius:15px;
     background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
@@ -18,4 +18,8 @@ body{
     font-size: large;
     font-family: candara;
     color: navy;
+}
+.heading_box{
+    color: rgb(165, 50, 185);
+    font-size: 200%;
 }
