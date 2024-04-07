@@ -1,18 +1,90 @@
+<!DOCTYPE html>
 <html>
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    let currentSlide = 0;
+
+    function showSlide() {
+      slides.forEach((slide, index) => {
+        slide.style.opacity = index === currentSlide? 1 : 0;
+      });
+    }
+
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide();
+    }
+
+    setInterval(nextSlide, 5000);
+
+    showSlide();
+  </script>
+
+  <style>
+    .slideshow {
+	position: relative;
+	height: 300px;
+	overflow: hidden;
+}
+
+.slide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.slide.current {
+	opacity: 1;
+}
+
+.review {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-align: center;
+}
+
+.review-text {
+	margin-bottom: 10px;
+}
+
+.reviewer {
+	font-weight: bold;
+}
+  </style>
 <head>
-<style> 
-body {
-  background-image: url("D:\Website\bg.jpg");
-  background-repeat: no-repeat, repeat;
-  background-color: #cccccc;
-}
-.imgd{
-  border-radius: 300px;
-}
-</style>
+	<title>Review Slideshow</title>
+	
 </head>
 <body>
-  <img  class="imgd" src="Photos_bg/news.gif" alt="Example GIF">
-
+	<div class="slideshow">
+		<div class="slide">
+			<div class="review">
+				<p class="review-text">This is a great product! I highly recommend it.</p>
+				<p class="reviewer">John Doe</p>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="review">
+				<p class="review-text">This product is good, but it could be better.</p>
+				<p class="reviewer">Jane Smith</p>
+			</div>
+		</div>
+		<div class="slide">
+			<div class="review">
+				<p class="review-text">This product is okay, but I've used better.</p>
+				<p class="reviewer">Bob Johnson</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
