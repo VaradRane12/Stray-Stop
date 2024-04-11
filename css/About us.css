@@ -134,7 +134,7 @@ body{
 }
 .Email{
   font-family: candar;
-  color:  rgb(198, 45, 80);
+  color:  rgb(126, 185, 228);
 }
 .about-section {
   padding: 50px;
@@ -149,7 +149,8 @@ body{
 }
 .card{
   border-radius: 25px;
-  background-color: #5da280;;
+  background-color: #5da280;
+  padding-bottom:20px ;
 }
 
 .container::after, .row::after {
