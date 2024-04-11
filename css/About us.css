@@ -1,16 +1,16 @@
 h2{
-    color:#446972;;
-    font-family: Georgia;
-     font-size: 200%;
+  color:#446972;;
+  font-family: Georgia;
+   font-size: 200%;
 }
 h1{
-    color:#a6dd89;
+  color:#a6dd89;
 }
 .about_us_box{
-    color:#a6dd89;
-    
-    font-family: Candara;
-    font-size: 110%;
+  color:#a6dd89;
+  
+  font-family: Candara;
+  font-size: 110%;
 }
 .about-section {
 padding: 50px;
@@ -20,166 +20,166 @@ border-radius: 55px;
 color:#a6dd89;
 }
 .Adoption{
-    padding: 50px;
-    background-color: #B5CEA8;
-    border-radius:15px;
-    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
-    text-align: center;
-    font-size: large;
-    font-family: candara;
-    color: navy;
+  padding: 50px;
+  background-color: #B5CEA8;
+  border-radius:15px;
+  background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
+  text-align: center;
+  font-size: large;
+  font-family: candara;
+  color: navy;
 }
 .Animal{
-    padding: 50px;
-    background-color: #B5CEA8;
-    border-radius:15px;
-    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
-    text-align: center;
-    font-size: large;
-    font-family: candara;
-    color: navy;
+  padding: 50px;
+  background-color: #B5CEA8;
+  border-radius:15px;
+  background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
+  text-align: center;
+  font-size: large;
+  font-family: candara;
+  color: navy;
 
 }
 .Rabies{
-    padding: 50px;
-    background-color: #B5CEA8;
-    border-radius:15px;
-    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
-    text-align: center;
-    font-size: large;
-    font-family: candara;
-    color: navy;
+  padding: 50px;
+  background-color: #B5CEA8;
+  border-radius:15px;
+  background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
+  text-align: center;
+  font-size: large;
+  font-family: candara;
+  color: navy;
 
 }
 .Neuter{
-    padding: 50px;
-    background-color: #B5CEA8;
-    border-radius:15px;
-    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
-    text-align: center;
-    font-size: large;
-    font-family: candara;
-    color: navy;
+  padding: 50px;
+  background-color: #B5CEA8;
+  border-radius:15px;
+  background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
+  text-align: center;
+  font-size: large;
+  font-family: candara;
+  color: navy;
 
 }
 .Release{
-    padding: 50px;
-    background-color: #B5CEA8;
-    border-radius:15px;
-    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
-    text-align: center;
-    font-size: large;
-    font-family: candara;
-    color: navy;
+  padding: 50px;
+  background-color: #B5CEA8;
+  border-radius:15px;
+  background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
+  text-align: center;
+  font-size: large;
+  font-family: candara;
+  color: navy;
 }
 .Education{
-    padding: 50px;
-    background-color: #B5CEA8;
-    border-radius:15px;
-    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
-    text-align: center;
-    font-size: large;
-    font-family: candara;
-    color: navy;
+  padding: 50px;
+  background-color: #B5CEA8;
+  border-radius:15px;
+  background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5)),url("Photos_bg/adopt_fost_index.png");
+  text-align: center;
+  font-size: large;
+  font-family: candara;
+  color: navy;
 }
 .div{
-    
-  width:100%;
-  overflow:hidden;
+  
+width:100%;
+overflow:hidden;
 }
 .nav{
-    width: 100%;
-    border: 0;
-    padding: 0;
-  }
-  body{
-    background-image: url("../Photos_bg/aesthet.png.");
+  width: 100%;
+  border: 0;
+  padding: 0;
 }
-  
+body{
+  background-image: url("../Photos_bg/aesthet.png.");
+}
+
 .Photo{
-   height: 200;
-   width: 200;
-    text-align: center;  
-    font-size: 110%;
-    overflow: hidden;
-    display: inline-block;
-  }
-  .flexing{
-    display: flex;
-    justify-content: center;
-  }
-  .flex{
-    display:flex;
-    justify-content:center;
-  }
+ height: 200;
+ width: 200;
+  text-align: center;  
+  font-size: 110%;
+  overflow: hidden;
+  display: inline-block;
+}
+.flexing{
+  display: flex;
+  justify-content: center;
+}
+.flex{
+  display:flex;
+  justify-content:center;
+}
+.column {
+  
+  width: 20%;
+  color: rgb(45, 9, 246);
+  margin-bottom: 16px;
+  padding: 0 8px;
+} 
+.one{
+  display: flex;
+  float: left;
+}
+.two{
+  display: flex;
+  float: right;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  margin: 6px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+.Photo_card{
+  border-radius: 25px 25px 0px 0px;
+}
+.container {
+  padding: 0 10x;
+}
+.card{
+  border-radius: 25px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
   .column {
-    
-    width: 20%;
-    color: rgb(45, 9, 246);
-    margin-bottom: 16px;
-    padding: 0 8px;
-  } 
-  .one{
-    display: flex;
-    float: left;
-  }
-  .two{
-    display: flex;
-    float: right;
-  }
-  
-  .card {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    margin: 6px;
-  }
-  
-  .about-section {
-    padding: 50px;
-    text-align: center;
-    color: white;
-  }
-  .Photo_card{
-    border-radius: 25px 25px 0px 0px;
-  }
-  .container {
-    padding: 0 10x;
-  }
-  .card{
-    border-radius: 25px;
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-  .button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
     width: 100%;
+    display: block;
   }
-  
-  .button:hover {
-    background-color: #555;
-  }
-  
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
-  .title_spon_team{
-    color: #446972;
-  }
+}
+.title_spon_team{
+  color: #446972;
+}
