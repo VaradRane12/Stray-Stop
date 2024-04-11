@@ -139,7 +139,7 @@ color:#a6dd89;
     color: white;
   }
   .Photo_card{
-    border-radius: 25px;
+    border-radius: 25px 25px 0px 0px;
   }
   .container {
     padding: 0 10x;
