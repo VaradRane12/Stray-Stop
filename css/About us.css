@@ -138,9 +138,14 @@ color:#a6dd89;
     text-align: center;
     color: white;
   }
-  
+  .photo_card{
+    border-radius: 25px;
+  }
   .container {
     padding: 0 10x;
+  }
+  .card{
+    border-radius: 25px;
   }
   
   .container::after, .row::after {
