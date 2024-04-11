@@ -149,7 +149,7 @@ body{
 }
 .card{
   border-radius: 25px;
-  background-color: #000;
+  background-color: #5da280;;
 }
 
 .container::after, .row::after {
