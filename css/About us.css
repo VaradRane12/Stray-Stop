@@ -115,7 +115,7 @@ body{
 .column {
   
   width: 20%;
-  color: rgb(45, 9, 246);
+  color: rgb(54, 61, 207);
   margin-bottom: 16px;
   padding: 0 8px;
 } 
@@ -132,7 +132,10 @@ body{
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin: 6px;
 }
-
+.Email{
+  font-family: candar;
+  color:  rgb(198, 45, 80);
+}
 .about-section {
   padding: 50px;
   text-align: center;
