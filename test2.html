@@ -1,90 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <script>
-    const slides = document.querySelectorAll('.slide');
-    let currentSlide = 0;
-
-    function showSlide() {
-      slides.forEach((slide, index) => {
-        slide.style.opacity = index === currentSlide? 1 : 0;
-      });
-    }
-
-    function nextSlide() {
-      currentSlide = (currentSlide + 1) % slides.length;
-      showSlide();
-    }
-
-    setInterval(nextSlide, 5000);
-
-    showSlide();
-  </script>
-
-  <style>
-    .slideshow {
-	position: relative;
-	height: 300px;
-	overflow: hidden;
-}
-
-.slide {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	opacity: 0;
-	transition: opacity 0.5s ease-in-out;
-}
-
-.slide.current {
-	opacity: 1;
-}
-
-.review {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: #fff;
-	padding: 20px;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	text-align: center;
-}
-
-.review-text {
-	margin-bottom: 10px;
-}
-
-.reviewer {
-	font-weight: bold;
-}
-  </style>
-<head>
-	<title>Review Slideshow</title>
-	
-</head>
 <body>
-	<div class="slideshow">
-		<div class="slide">
-			<div class="review">
-				<p class="review-text">This is a great product! I highly recommend it.</p>
-				<p class="reviewer">John Doe</p>
-			</div>
-		</div>
-		<div class="slide">
-			<div class="review">
-				<p class="review-text">This product is good, but it could be better.</p>
-				<p class="reviewer">Jane Smith</p>
-			</div>
-		</div>
-		<div class="slide">
-			<div class="review">
-				<p class="review-text">This product is okay, but I've used better.</p>
-				<p class="reviewer">Bob Johnson</p>
-			</div>
-		</div>
-	</div>
+
+<button onclick="findVets()">Find Vets</button>
+
+<p id="vetList"></p>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCR96XMVoqiYfcIKLe1EEByiAodzo73lTg&loading=async&libraries=places&callback=initMap">
+</script>
+<script>
+var vetList = document.getElementById("vetList");
+
+function findVets() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(getVets);
+  } else {
+    vetList.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function getVets(position) {
+  var service = new google.maps.places.PlacesService(map);
+  service.nearbySearch({
+    location: position,
+    radius: 500,
+    type: ['veterinary_care']
+  }, callback);
+}
+
+function callback(results, status) {
+  if (status === google.maps.places.PlacesServiceStatus.OK) {
+    for (var i = 0; i < results.length; i++) {
+      vetList.innerHTML += "<p>" + results[i].name + "</p>";
+    }
+  }
+}
+</script>
+
 </body>
 </html>
