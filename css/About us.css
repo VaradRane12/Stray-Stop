@@ -108,6 +108,10 @@ color:#a6dd89;
     display: flex;
     justify-content: center;
   }
+  .flex{
+    display:flex;
+    justify-content:center;
+  }
   .column {
     
     width: 20%;
