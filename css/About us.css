@@ -115,7 +115,7 @@ color:#a6dd89;
   .column {
     
     width: 20%;
-    color: rgb(206,246,9);
+    color: rgb(45, 9, 246);
     margin-bottom: 16px;
     padding: 0 8px;
   } 
@@ -179,4 +179,7 @@ color:#a6dd89;
       width: 100%;
       display: block;
     }
+  }
+  .title_spon_team{
+    color: #446972;
   }
