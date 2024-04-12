@@ -115,7 +115,7 @@ body{
 .column {
   
   width: 20%;
-  color: rgb(67, 137, 221);
+  color: rgb(255, 255, 255);
   margin-bottom: 16px;
   padding: 0 8px;
 } 
@@ -134,7 +134,7 @@ body{
 }
 .Email{
   font-family: candar;
-  color:  rgb(126, 185, 228);
+  color:  rgb(244, 246, 248);
 }
 .about-section {
   padding: 50px;
