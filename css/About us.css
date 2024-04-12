@@ -1,15 +1,16 @@
 h2{
-  color:#446972;
-  font-family: Georgia;
+  color:hsl(192, 25%, 36%);
+  font-family: candara;
    font-size: 200%;
 }
 h1{
+  font-family: candara;
   color:#a6dd89;
 }
 .about_us_box{
   color:#a6dd89;
   
-  font-family: Candara;
+  font-family: candara;
   font-size: 110%;
 }
 .about-section {
@@ -127,13 +128,17 @@ body{
   display: flex;
   float: right;
 }
+.Name{
+  font-family: candara;
+  color:  rgb(244, 246, 248);
 
+}
 .card {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   margin: 6px;
 }
 .Email{
-  font-family: candar;
+  font-family: candara;
   color:  rgb(244, 246, 248);
 }
 .about-section {
