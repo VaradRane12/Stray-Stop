@@ -5,6 +5,7 @@ body{
     width: 100%;
     border: 0;
     padding: 0;
+    height: 10%;
   }
 .p{
     text-decoration: overline;
@@ -22,4 +23,16 @@ body{
 .heading_box{
     color: rgb(165, 50, 185);
     font-size: 200%;
+}
+.button_more{
+    display: flex;
+  justify-content: center;  
+  align-items: center;
+  border-radius: 25px;
+}
+.button_more1{
+    border-radius: 25px;
+    background-color: rgb(165, 50, 185);
+    color: white;
+    padding: 20px;
 }

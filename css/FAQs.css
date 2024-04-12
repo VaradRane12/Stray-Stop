@@ -19,4 +19,11 @@ body{
     width: 100%;
     border: 0;
     padding: 0;
+    height: 10%;
   }
+  .Qs
+{
+    background: linear-gradient(rgba(68, 105, 114,0.6),rgba(41, 173, 125, 0.5));
+    padding: 10px;
+    border-radius: 25px;
+}
