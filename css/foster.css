@@ -23,3 +23,15 @@ body{
     color: rgb(165, 50, 185);
     font-size: 200%;
 }
+.button_more{
+    display: flex;
+  justify-content: center;  
+  align-items: center;
+  border-radius: 25px;
+}
+.button_more1{
+    border-radius: 25px;
+    background-color: rgb(165, 50, 185);
+    color: white;
+    padding: 20px;
+}
