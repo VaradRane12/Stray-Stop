@@ -13,7 +13,7 @@ h2{
      font-size: 100%;
 }
 body{
-    background-image: url("..\Photos_bg\aesthet.png.");
+    background-image: url("../Photos_bg/aesthet.png.");
 }
 .nav{
     width: 100%;
