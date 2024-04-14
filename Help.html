@@ -3,6 +3,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    form {
+      width: 50%;
+      border: 1px solid #ccc;
+      padding: 30px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      height: 100px;
+    }
+
+    input[type="submit"], input[type="reset"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover {
+      background-color: #45a049;
+    }
+  </style>
     <h2>    </h2>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,54 +59,30 @@
 </head>
 <iframe class = "nav" src="navigation.html"></iframe>
 <body>
-    <form action="action_page.php" style="border:1px solid #ccc">
-        <center>
-        <div class="container">
-          <h1>Enter The Required Details:</h1>
-          <hr>
-      
-
-          <label style="color: #0047AB;font-weight: 500;"
-            for="Name"><b>Name:</b></label><br>
-          <input type="Name" placeholder="Enter your Name:" name="Name" required><br>
-          <br>
-          <br>  
-
-          <label style="color: #0047AB; font-weight: 500;"
-             for="Email"><b>Email:</b></label><br>
-          <input type="text" placeholder="Enter Email:" name="email" required><br>
-          <br>
-          <br>
-
-          <label style="color: #0047AB; font-weight: 500;"
-            for="Phone Number"><b>Phone Number:</b></label><br>
-          <input type="Phone Number" placeholder="Enter your Phone No:" name="phone_num" required><br>
-          <br>
-          <br> 
-          <label style="color: #0047AB; font-weight: 500;"
-             for="Birthday"><b>Birthday:</b></label><br>
-          <input type="datetime-local" placeholder="Date of Birth:"  id="Test_DatetimeLocal" required><br>
-          <br>
-          <br>
-          <label style="color: #0047AB; font-weight: 500;"
-             for="Image Of Stray"><b>Click on the "Choose File" button to upload an image of the stray:</b></label><br>
-          
-          <form action="/action_page.php">
-            <input type="file" id="myFile" name="filename"><br><br>
-            <input type="submit"><br><br>
-          </form>
-          <label style="color: #0047AB; font-weight: 500;"
-            for="freeform"><b>Describe the Stray's Injury in Detail:</label><b></label>
-          <br>
-          <textarea id="freeform" name="freeform"  rows="5" cols="60">
-          </textarea><br><br>
-          <br>
-          <label style="color: #0047AB; font-weight: 500;"
-             for="location"><b>Please Select Your Location:</label><b></label>
-         </center>
-      </form>
-
-</body>
+  <div class="container">
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+  
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone">
+  
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+  
+      <label for="photo">Choose a file:</label>
+      <input type="file" id="photo" name="photo">
+  
+      <label for="injury">Describe the injury of the stray:</label>
+      <textarea id="injury" name="injury"></textarea>
+  
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </div>
 
 
 </html>

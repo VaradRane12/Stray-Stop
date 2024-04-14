@@ -1,29 +1,81 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <style>
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    form {
+      width: 50%;
+      border: 1px solid #ccc;
+      padding: 30px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="file"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      height: 100px;
+    }
+
+    input[type="submit"], input[type="reset"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    input[type="submit"]:hover, input[type="reset"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
 <body>
 
-<h2>Get User's Location</h2>
+<div class="container">
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
 
-<button onclick="getLocation()">Try It</button>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
 
-<p id="demo"></p>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
 
-<script>
-var x = document.getElementById("demo");
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
 
-function getLocation() {
-  if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(showPosition);
-  } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
-  }
-}
+    <label for="photo">Choose a file:</label>
+    <input type="file" id="photo" name="photo">
 
-function showPosition(position) {
-  x.innerHTML = "Latitude: " + position.coords.latitude +
-  "<br>Longitude: " + position.coords.longitude;
-}
-</script>
+    <label for="injury">Describe the injury of the stray:</label>
+    <textarea id="injury" name="injury"></textarea>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </form>
+</div>
 
 </body>
 </html>
