@@ -94,6 +94,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
   right: 10px;
   width: 250px;
 }
+.open-button1 {
+  padding: 100px 20px;
+  cursor: pointer;
+  opacity: 1;
+  position: fixed;
+  bottom: 23px;
+  right: 10px;
+  width: 250px;
+}
 
 /* The popup form - hidden by default */
 .form-popup {
