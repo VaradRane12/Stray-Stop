@@ -86,7 +86,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Button used to open the contact form - fixed at the bottom of the page */
 .open-button {
-  padding: 100px 20px;
+  padding: 120px 20px;
   cursor: pointer;
   opacity: 1;
   position: fixed;
