@@ -71,7 +71,7 @@
 <body >
   <a class="open-button" onclick="openForm()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img  class="news_gif" src="Photos_bg/newletter_gif.gif" alt="Example GIF"> </a>
  
-  <a class="open-button1">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img  class="news_gif" src="Photos_bg/cat_money.gif" alt="Example GIF"> </a>
+  <a class="open-button1" onclick="openForm1()">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<img  class="news_gif" src="Photos_bg/cat_money.gif" alt="Example GIF"> </a>
 
 <div class="form-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
@@ -88,6 +88,14 @@
     <button type="submit" class="btn">Submit</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
+</div>
+
+<div class="form-popup" id="myForm1">
+  <div class="qr">
+    <img src="Photos_bg/qr.jpg" height="300" width="300">
+    <br>
+    <br>
+    <button type="button" class="qrcancel" onclick="closeForm1()">Close</button></div>
 </div>
 <!--
 <style>
