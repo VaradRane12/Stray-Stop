@@ -243,25 +243,7 @@ overflow:hidden;
   height: 70%;
   border: none;
 }
-.qr{
-  padding: 50;
-  max-width: 450px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 20px;
-  border: 3px solid #f1f1f1;
-  border-style: outset;
-}
-.qr .qrcancel {
-  background-color: rgb(41, 173, 125);
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  margin-bottom:10px;
-  opacity: 0.8;
-  border-radius: 20px;
+
 
 
 
