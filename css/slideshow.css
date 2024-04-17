@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*{
+    font-family: candara;
+  }
 .container{
     height: 100vh;
     width: 100%;

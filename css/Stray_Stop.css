@@ -35,6 +35,9 @@ font-size: 16px;
 *{
   text-decoration: none;
 }
+*{
+  font-family: candara;
+}
 .navbar{
   background: #446972; font-family: calibri; padding-right: 15px;padding-left: 15px;
 }
