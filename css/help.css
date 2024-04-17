@@ -43,6 +43,7 @@ h1{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     background-color: white;
     border-radius: 25px;
+    font-family: candara;
   }
 
   label {
@@ -83,4 +84,13 @@ h1{
   .lable_co{
     color: navy;
 
+  }
+  .add
+  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    height: 80px;
+    border-radius: 25px;
   }
